@@ -17,7 +17,7 @@ export default class Recipe extends Component {
             src={image_url}
             style={{ height: "14rem" }}
             className="img-card-top"
-            alt="recipe picture"
+            alt="recipe"
           />
           <div className="card-body text-capitalize">
             <h6>{title}</h6>
