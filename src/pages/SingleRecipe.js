@@ -21,7 +21,6 @@ class SingleRecipes extends Component {
     try {
       const response = await fetch(url);
       const responseData = await response.json();
-      console.log(responseData);
       this.setState({ recipe: responseData.recipe, loading: false });
     } catch (error) {
       console.log(error);
